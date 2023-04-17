@@ -1,1 +1,9 @@
+import tkinter as tk
+from android_phone_gui import AndroidPhoneGUI
 
+# Create a new Tkinter window and initialize the Android phone GUI
+root = tk.Tk()
+android_gui = AndroidPhoneGUI(root)
+
+# Start the Tkinter event loop
+root.mainloop()
